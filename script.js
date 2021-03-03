@@ -1,3 +1,21 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript";
-document.querySelector('body').appendChild(h2);
+function clickListener () {
+    const goodTeam = document.getElementById('good-teams');
+    const badTeam = document.getElementById('bad-teams');
+
+    function goodTeams() {
+        alert("Good choice!");
+    }
+
+    function badTeams() {
+        alert("Are you sure?");
+    }
+
+    goodTeam.addEventListener('click', function() {
+        goodTeams()
+    });
+
+    badTeam.addEventListener('click', function(){
+        badTeams()
+    })
+    
+}

@@ -2,10 +2,10 @@ body {
     background: pink;
 }
 
-.good-teams {
+#good-teams {
     font-size: 4em;
 }
 
-.bad-teams {
+#bad-teams {
     font-size: 4em;
 }
