@@ -2,10 +2,23 @@ body {
     background: pink;
 }
 
-#good-teams {
+h1 {
     font-size: 4em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+ul {
+    font-size: 2em;
+}
+
+#good-teams {
+    font-size: 2em;
 }
 
 #bad-teams {
-    font-size: 4em;
+    font-size: 2em;
 }
