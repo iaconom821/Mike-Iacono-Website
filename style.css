@@ -11,6 +11,10 @@ h3 {
     font-size: 3em;
 }
 
+p {
+    font-size: 2em;
+}
+
 ul {
     font-size: 2em;
 }
@@ -24,5 +28,13 @@ ul {
 }
 
 #mlb-teams {
+    font-size: 2em;
+}
+
+#countdowns,
+#countMLB,
+#countNFL,
+#countNBA,
+#countNHL {
     font-size: 2em;
 }
